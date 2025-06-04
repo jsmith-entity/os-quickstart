@@ -30,12 +30,12 @@ sudo pacman -S --noconfirm \
 	base-devel \
 	gnupg \
 	grep \
+	man man-pages \
 	openssh \
 	pass \
 	unzip \
 	which \
-	xdg-desktop \
-	xdg-utils \
+	xdg-desktop xdg-utils \
 	zip
 
 # Coding Utilities
@@ -47,6 +47,9 @@ sudo pacman -S --noconfirm \
 sudo pacman -S --noconfirm \
 	curl \
 	firefox \
+	grim \
+	libnotify \
 	libreoffice \
+	mako \
 	pipewire pipewire-pulse \
 	pavucontrol
