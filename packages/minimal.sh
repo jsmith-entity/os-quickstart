@@ -1,13 +1,5 @@
 #!/bin/bash
 
-# Desktop Environment / Utils
-sudo pacman -S --noconfirm \
-	hyprland \
-	hyprpaper \
-	waybar \
-	rofi \
-	sddm
-
 # Fonts
 sudo pacman -S --noconfirm \
 	ttf-fira-mono \
@@ -23,8 +15,7 @@ sudo pacman -S --noconfirm \
 	neovim \
 	ripgrep \
 	tmux \
-	zsh \
-	rustup
+	zsh
 
 # Terminal Utils
 sudo pacman -S --noconfirm \
@@ -39,18 +30,10 @@ sudo pacman -S --noconfirm \
 	xdg-desktop xdg-utils \
 	zip
 
-# Coding Utilities
-sudo pacman -S --noconfirm \
-	gcc \
-	npm
-
 # Miscellaneous
 sudo pacman -S --noconfirm \
 	curl \
 	firefox \
-	grim \
-	libnotify \
 	libreoffice \
-	mako \
 	pipewire pipewire-pulse \
 	pavucontrol
